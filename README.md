@@ -1,12 +1,12 @@
-#banglaKeyboard.js
+# banglaKeyboard.js
 
-banglaKeyboard.js is a JavaScript library for typing Bengali using an English keyboard. It is very easy to add in a website and works perfectly all browsers on PC or mobile. banglaKeyboard.js is a very lightweight JavaScript program.
+**banglaKeyboard.js** is a JavaScript library for typing Bengali using an English keyboard. It is very easy to add in a website and works perfectly all **browsers on PC or mobile**. banglaKeyboard.js is a very lightweight JavaScript program.
 
-##Installation
+## Installation
 
 First, download the banglakeyboard.js file and add it to the <head> section of your HTML code, or copy the CDN link below and add it to the <head> section.
 
-###CDN
+### CDN
 
 ```html
 <script src="https://static.staticsave.com/bangla/banglakeyboard.js"></script>
@@ -14,7 +14,7 @@ First, download the banglakeyboard.js file and add it to the <head> section of y
 
 Then, in the <input> and <textarea> fields where you want to type in Bengali using the English keyboard, simply add the word 'bengalikeyboard' as an attribute.
 
-###Example:
+### Example:
 
 ```html
 <!-- Add banglaKeyboard in input tag -->
