@@ -37,3 +37,23 @@ Then, in the &lt;input&gt; and &lt;textarea&gt; fields where you want to type in
 * Very lightweight JavaScript program.
 
 ## Code Examples
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>ENGLISH TO BANGLA CONVERT KEYBOARD</title>
+
+       <!-- Add CDN in head tag -->
+       <script src="https://static.staticsave.com/bangla/banglakeyboard.js"></script>
+
+    </head>
+    <body>
+        <h1>ENGLISH TO BANGLA CONVERT KEYBOARD</h1>
+        <div>Please type anything..</div><br>
+        
+        <!-- Add banglaKeyboard in textarea tag -->
+        <textarea id="tname" bengalikeyboard name="fildname" rows="10" cols="55"></textarea>
+        
+  </body>
+```
