@@ -4,7 +4,7 @@
 
 ## Installation
 
-First, download the banglakeyboard.js file and add it to the <head> section of your HTML code, or copy the CDN link below and add it to the <head> section.
+First, download the banglakeyboard.js file and add it to the &lt;head&gt; section of your HTML code, or copy the CDN link below and add it to the &lt;head&gt; section.
 
 ### CDN
 
@@ -12,7 +12,7 @@ First, download the banglakeyboard.js file and add it to the <head> section of y
 <script src="https://static.staticsave.com/bangla/banglakeyboard.js"></script>
 ```
 
-Then, in the <input> and <textarea> fields where you want to type in Bengali using the English keyboard, simply add the word 'bengalikeyboard' as an attribute.
+Then, in the &lt;input&gt; and &lt;textarea&gt; fields where you want to type in Bengali using the English keyboard, simply add the word 'bengalikeyboard' as an attribute.
 
 ### Example:
 
