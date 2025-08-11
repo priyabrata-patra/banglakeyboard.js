@@ -24,3 +24,16 @@ Then, in the &lt;input&gt; and &lt;textarea&gt; fields where you want to type in
 <!-- Add banglaKeyboard in textarea tag -->
 <textarea id="tname" bengalikeyboard name="fildname" rows="4" cols="50"></textarea>
 ```
+## Featurrs of banglaKeyboard.js
+
+* The best feature of this keyboard is phonetic typing. You can type Bengali words using English letters. Example:`k ='ক'`,`kh ='খ'`
+
+* Works perfectly on all mobile and PC browsers.
+
+* Full user friendly.
+
+* Provides support for using English and Bengali keyboards together.
+
+* Very lightweight JavaScript program.
+
+## Code Examples
