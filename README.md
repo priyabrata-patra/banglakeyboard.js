@@ -55,5 +55,6 @@ Then, in the &lt;input&gt; and &lt;textarea&gt; fields where you want to type in
         <!-- Add banglaKeyboard in textarea tag -->
         <textarea id="tname" bengalikeyboard name="fildname" rows="10" cols="55"></textarea>
         
-  </body>
+    </body>
+</html>
 ```
