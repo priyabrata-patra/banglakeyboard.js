@@ -26,6 +26,17 @@ Then, in the &lt;input&gt; and &lt;textarea&gt; fields where you want to type in
 <!-- Add banglaKeyboard in textarea tag -->
 <textarea id="tname" bengalikeyboard name="fildname" rows="4" cols="50"></textarea>
 ```
+
+## Use the CDN
+
+We recommend using the CDN version of the library. You don't need to download the ".js" file or specify a version number manually.
+
+Once the CDN is added to your project, everything is handled automatically. When a new version of the library is released, your project will automatically use the latest version.
+
+This means you don't need to download the updated ".js" file and replace it in your project every time the library is updated.
+
+Just add the CDN once — and the updates will be handled automatically.
+
 ## Featurrs of banglaKeyboard.js
 
 * The best feature of this keyboard is phonetic typing. You can type Bengali words using English letters. Example:`k ='ক'`,`kh ='খ'`
