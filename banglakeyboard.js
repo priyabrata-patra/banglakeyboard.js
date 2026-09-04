@@ -759,7 +759,7 @@ window.onload = function() {
 
 				} else if (keyData === '\,\,') {
 					//cake on second (হসন্ত)
-					addData(avroValues['\,\,'] + '‌');
+					addData(avroValues['\,\,']);
 					banglaWordActive.splice(cursorPositionChake()[0] -1, 1);
 					banglaWord[activeTag][1] = banglaWordActive;
 					fullAllNew();
@@ -826,7 +826,11 @@ window.onload = function() {
 						//CONTOEL WORD SECOND LETTERS
 						//Contorl soroborno second letters
 						if (soroborno(keyData[(keyData.length)-1])) {
-							addData(avroValues[keyData[(keyData.length)-1]][1]);
+							if (sonoc(keyData.slice(0,-1))){
+								addData(avroValues[keyData[(keyData.length)-1]][0]);
+							}else{
+								addData(avroValues[keyData[(keyData.length)-1]][1]);
+							}
 							subKeyData += keyData[(keyData.length)-1];
 							keyData = '';
 
@@ -880,6 +884,16 @@ window.onload = function() {
 					return true;
 				}
 			}
+		}
+
+	  function sonoc(data) {
+			const soroArray = ['o', 'a', 'A', 'i', 'I', 'u', 'U', 'e', 'E', 'OI', 'O', 'OU'];
+			for (let i = 0; i < soroArray.length; i++) {
+				if (soroArray[i] === data) {
+					return true;
+					break;
+				}
+			}	
 		}
 
 
