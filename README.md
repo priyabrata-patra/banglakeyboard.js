@@ -12,7 +12,7 @@ First, download the banglakeyboard.js file and add it to the &lt;head&gt; sectio
 ### CDN
 
 ```html
-<script src="https://static.staticsave.com/bangla/banglakeyboard.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/priyabrata-patra/banglakeyboard.js@main/banglakeyboard.js"></script>
 ```
 
 Then, in the &lt;input&gt; and &lt;textarea&gt; fields where you want to type in Bengali using the English keyboard, simply add the word 'bengalikeyboard' as an attribute.
@@ -47,7 +47,7 @@ Then, in the &lt;input&gt; and &lt;textarea&gt; fields where you want to type in
        <title>ENGLISH TO BANGLA CONVERT KEYBOARD</title>
 
        <!-- Add CDN in head tag -->
-       <script src="https://static.staticsave.com/bangla/banglakeyboard.js"></script>
+       <script src="https://cdn.jsdelivr.net/gh/priyabrata-patra/banglakeyboard.js@main/banglakeyboard.js"></script>
 
     </head>
     <body>
