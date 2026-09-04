@@ -3,6 +3,7 @@
 
 	      **** ENGLISH TO BANGLA CONVERT KEYBOARD JAVASCRIPT PROGRAM ****
                        [version] -> 1.0.0
+					   [source] -> https://github.com/priyabrata-patra/banglakeyboard.js
   [USE PROCESS] -> Just include this file within the <head> section of your HTML code 
                    and add 'bengalikeyboard' as a attribute to any <input> or <textarea> 
                    field where you want to type in English and get Bengali output.
